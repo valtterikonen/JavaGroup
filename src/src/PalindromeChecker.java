@@ -8,13 +8,13 @@ public class PalindromeChecker {
         String input = scanner.nextLine();
         scanner.close();
 
-        String transformed = transformInput(input);
-        boolean isPalindrome = checkPalindrome(transformed);
+        String transform = transformInput(input);
+        boolean isPalindrome = checkPalindrome(transform);
 
         if (isPalindrome) {
-            System.out.println("The transformed input is a palindrome.");
+            System.out.println("The input is a palindrome.");
         } else {
-            System.out.println("The transformed input is not a palindrome.");
+            System.out.println("The input is not a palindrome.");
         }
     }
 
